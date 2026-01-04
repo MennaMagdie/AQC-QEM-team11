@@ -1,13 +1,13 @@
 # PART ONE: Dataset Generation Report (QEM TRACK)
 
 ## 1. Overview
-Generating a synthetic dataset of **10,000 random quantum circuits** to train an ML model for Quantum Error Mitigation. 
+Generating a synthetic dataset of **30,000 random quantum circuits** to train an ML model for Quantum Error Mitigation. 
 
 Each circuit is simulated under four conditions: 
 - Ideal (Noise-free)
 - Three noise levels (Low, Moderate, High)
 
-There was also an additional generated dataset in which, instead of using three distinct noise models (Low, Moderate, High), a single noise feature was varied continuously in magnitude.
+To improve model efficiency, we transitioned from a "wide" feature space (separate input vectors for each noise channel) to a more compact format. We utilized a single input vector for measurement statistics and appended a discrete Noise Context Flag (Labels: 0=Low, 1=Medium, 2=High) instead of having one vector for each noise level per sample
 
 
 
@@ -51,7 +51,10 @@ The output file `quantum_dataset.csv` contains ~67 columns per row:
 | **Target (Y)** | ideal_0 ... ideal_15 | Ground truth probabilities |
 | **Input (X)** | low_..., moderate_..., high_... | Noisy probability vectors for all 3 levels |
 
-## 5. Results
+# PART TWO: ML Model 
+The baseline model utilized was a linear regression model. It was trained on the
+
+# PART THREE: Results
 After the training and testing were completed, our best validation performance had a validation loss of **0.5629**
 
 ### FINAL PERFORMANCE REPORT (Evaluated on 6000 Test Samples)
