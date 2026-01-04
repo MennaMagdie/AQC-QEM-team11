@@ -67,7 +67,12 @@ Win Rate:                  74.30%
 
 ### Graphs
 ============================================================  
-![Model performance comparison](_dump/img/download_1.png)
-![Model performance comparison](_dump/img/download_2.png)
+Performance Distribution: Noise vs AI (KL-Trained)  
+![Model performance comparison](_dump/img/download_1.png)  
+
+Training Trajectory (Epochs vs Loss)  
+![Model performance comparison](_dump/img/download_2.png)  
+
+Robustness, Error Distribution Shift and Overall Success Rate
 ![Model performance comparison](_dump/img/download_3.png)
 
