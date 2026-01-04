@@ -76,3 +76,8 @@ Training Trajectory (Epochs vs Loss)
 Robustness, Error Distribution Shift and Overall Success Rate
 ![Model performance comparison](_dump/img/download_3.png)
 
+## 6. Recommendations for Further Work  
+- The model can be packaged and uploaded to the Python Package Index (PyPI) to allow general use.
+- Use AI to suggest techniques to reduce errors.
+- Identify the circuit parameters/scenarios that give rise to more errors.
+
