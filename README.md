@@ -52,7 +52,7 @@ The output file `quantum_dataset.csv` contains ~67 columns per row:
 | **Input (X)** | low_..., moderate_..., high_... | Noisy probability vectors for all 3 levels |
 
 ## 5. Results
-After the training and testing were completed, our best validation performance had a validation loss of 0.5629
+After the training and testing were completed, our best validation performance had a validation loss of **0.5629**
 
 ### FINAL PERFORMANCE REPORT (Evaluated on 6000 Test Samples)
 ============================================================
@@ -62,5 +62,5 @@ After the training and testing were completed, our best validation performance h
 - R2 Score (Unmitigated):    0.1811 (Baseline Fit)
 - R2 Score (AI Model):       0.3816 (AI Fit)
 ------------------------------------------------------------
-Improvement Factor:        1.76x
+Improvement Factor:        1.76x  
 Win Rate:                  74.30%
