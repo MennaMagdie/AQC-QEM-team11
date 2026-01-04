@@ -67,5 +67,5 @@ Win Rate:                  74.30%
 
 ### Graphs
 ============================================================  
-![Model performance comparison](_dump/img/download (2).png)
+![Model performance comparison](_dump/img/download_1.png)
 
