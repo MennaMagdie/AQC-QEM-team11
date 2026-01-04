@@ -64,3 +64,8 @@ After the training and testing were completed, our best validation performance h
 ------------------------------------------------------------
 Improvement Factor:        1.76x  
 Win Rate:                  74.30%
+
+### Graphs
+============================================================  
+![Model performance comparison](_dump/img/download (2).png)
+
