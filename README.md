@@ -54,13 +54,13 @@ The output file `quantum_dataset.csv` contains ~67 columns per row:
 ## 5. Results
 After the training and testing were completed, our best validation performance had a validation loss of 0.5629
 
-FINAL PERFORMANCE REPORT (Evaluated on 6000 Test Samples)
+### FINAL PERFORMANCE REPORT (Evaluated on 6000 Test Samples)
 ============================================================
-MSE Error (Unmitigated):   0.018641
-MSE Error (AI Model):      0.010573
+- MSE Error (Unmitigated):   0.018641
+- MSE Error (AI Model):      0.010573
 ------------------------------------------------------------
-R2 Score (Unmitigated):    0.1811 (Baseline Fit)
-R2 Score (AI Model):       0.3816 (AI Fit)
+- R2 Score (Unmitigated):    0.1811 (Baseline Fit)
+- R2 Score (AI Model):       0.3816 (AI Fit)
 ------------------------------------------------------------
 Improvement Factor:        1.76x
 Win Rate:                  74.30%
