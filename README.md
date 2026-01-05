@@ -57,6 +57,8 @@ The baseline model utilized was a linear regression model. It was trained on the
 # PART THREE: Results
 After the training and testing were completed, our best validation performance had a validation loss of **0.5629**
 
+![alt text](_dump/img/image0.png)
+
 ### FINAL PERFORMANCE REPORT (Evaluated on 6000 Test Samples)
 ============================================================
 - MSE Error (Unmitigated):   0.018641
