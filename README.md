@@ -79,6 +79,12 @@ Training Trajectory (Epochs vs Loss)
 Robustness, Error Distribution Shift and Overall Success Rate
 ![Model performance comparison](_dump/img/download_3.png)
 
+Benchmarking
+![Unmitigated VS Linear Reg VS Our Model](_dump/img/image.png)
+
+Sample
+![Sample](_dump/img/image2.png)
+
 ## 6. Recommendations for Further Work  
 - The model can be packaged and uploaded to the Python Package Index (PyPI) to allow general use.
 - Use AI to suggest techniques to reduce errors.
